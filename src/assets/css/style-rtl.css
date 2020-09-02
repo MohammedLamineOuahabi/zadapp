@@ -1,0 +1,1050 @@
+/* -----------------------------------
+    - General Styles
+------------------------------------*/
+*, body {
+    direction: rtl;
+}
+
+.opp-dir {
+    text-align: left;
+}
+
+.content-inline {
+    margin-right: inherit;
+    margin-left: 25px;
+}
+
+.badge:before {
+    left: inherit;
+    right: 6px;
+}
+
+.badge.badge-success {
+    padding-left: inherit;
+    padding: 6px;
+    padding-right: 20px;
+}
+
+.badge.badge-warning {
+    padding-left: inherit;
+    padding: 6px;
+    padding-right: 18px;
+}
+
+.btn {
+    border-radius: 5px;
+}
+
+.btn i {
+    margin-right: 10px;
+    margin-left: -5px;
+}
+
+.btn.btn-normal:after {
+    margin-left: inherit;
+    margin-right: 6px;
+}
+
+.btn.btn-next i {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.category-form {
+    text-align: right;
+}
+
+.input-group.margin-first > :first-child {
+    margin-right: inherit;
+    margin-left: 10px;
+}
+
+.input-group.margin-first .input-group-prepend > .btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.form-control {
+    text-align: right;
+}
+
+label i {
+    margin-right: inherit;
+    margin-left: 5px;
+}
+
+label img {
+    margin-right: inherit;
+    margin-left: 5px;
+}
+
+.custom-control.with-button .custom-control-label:before, .custom-control.with-button .custom-control-label:after {
+    left: 0;
+    right: 7px;
+}
+
+.custom-control.with-button .btn-show {
+    right: inherit;
+    left: 0;
+}
+
+.custom-switch.custom-switch-md {
+    padding-left: inherit;
+    padding-right: 3.05rem;
+}
+
+.custom-switch.custom-switch-md .custom-control-label:before {
+    left: inherit;
+    right: -3.05rem;
+}
+
+.custom-switch.custom-switch-md .custom-control-label:after {
+    left: inherit;
+    right: calc(-3.05rem + 2px);
+}
+
+.custom-switch.custom-switch-md .custom-control-input:checked ~ .custom-control-label:after {
+    -webkit-transform: translateX(-0.95rem);
+    -moz-transform: translateX(-0.95rem);
+    -ms-transform: translateX(-0.95rem);
+    transform: translateX(-0.95rem);
+}
+
+.custom-switch.custom-switch-lg {
+    padding-left: inherit;
+    padding-right: 3.65rem;
+}
+
+.custom-switch.custom-switch-lg .custom-control-label:before {
+    left: inherit;
+    right: -3.65rem;
+}
+
+.custom-switch.custom-switch-lg .custom-control-label:after {
+    left: inherit;
+    right: calc(-3.65rem + 2px);
+}
+
+.custom-switch.custom-switch-lg .custom-control-input:checked ~ .custom-control-label:after {
+    -webkit-transform: translateX(-1.25rem);
+    -moz-transform: translateX(-1.25rem);
+    -ms-transform: translateX(-1.25rem);
+    transform: translateX(-1.25rem);
+}
+
+.btn-menu-toggle {
+    margin-right: inherit;
+    margin-left: 10px;
+}
+
+.btn-menu-toggle .toggle-icon .icon-shape:before {
+    right: inherit;
+    left: -25%;
+}
+
+.btn-menu-toggle .toggle-icon .icon-shape:after {
+    right: inherit;
+    left: -25%;
+}
+
+.btn-menu-toggle:hover .toggle-icon .icon-shape:before, .btn-menu-toggle:focus .toggle-icon .icon-shape:before {
+    right: inherit;
+    left: 0%;
+}
+
+.btn-menu-toggle:hover .toggle-icon .icon-shape:after, .btn-menu-toggle:focus .toggle-icon .icon-shape:after {
+    right: inherit;
+    left: 0%;
+}
+
+.btn-group .dropdown-menu .dropdown-item i {
+    margin-right: inherit;
+    margin-left: 5px;
+}
+
+.btn-group > .btn-group:not(:first-child) > .btn {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.btn-group > .btn-group:not(:last-child) > .btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn-group > .btn:not(:first-child) {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.btn-group > .btn:not(:last-child):not(.dropdown-toggle):first-child {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 6px 19px 6px 10px;
+}
+
+#sidebar-wrapper {
+    left: inherit;
+    right: -248px;
+    border-left: 1px solid transparent;
+}
+
+#sidebar-wrapper.open {
+    left: inherit;
+    right: 0;
+}
+
+#sidebar-wrapper .sidebar-head .brand img {
+    margin-right: inherit;
+    margin-left: 15px;
+}
+
+#sidebar-wrapper .sidebar-head .btn-view > i, #sidebar-wrapper .sidebar-head .btn-edit > i {
+    margin-right: inherit;
+    margin-left: 10px;
+}
+
+#sidebar-wrapper .sidebar-body ul.main-menu > li > a > i {
+    margin-right: inherit;
+    margin-left: 15px;
+}
+
+#sidebar-wrapper .sidebar-body ul.main-menu > li > a[data-toggle="collapse"]:before {
+    right: inherit;
+    left: 20px;
+}
+
+#sidebar-wrapper .sidebar-body ul.main-menu > li > button {
+    text-align: right;
+}
+
+#sidebar-wrapper .sidebar-body ul.main-menu > li > button.btn-mode > i.zid-mode {
+    margin-right: inherit;
+    margin-left: 15px;
+}
+
+#sidebar-wrapper .sidebar-body ul.main-menu > li ul.sub-menu > li > a:hover, #sidebar-wrapper .sidebar-body ul.main-menu > li ul.sub-menu > li > a:focus {
+    padding-right: 33px;
+    padding-left: 30px;
+}
+
+#page-content-wrapper {
+    margin-left: inherit;
+    margin-right: 248px;
+}
+
+#page-content-wrapper.menu-closed {
+    margin-left: inherit;
+    margin-right: 0;
+}
+
+#status-bar .time-holder {
+    text-align: right;
+}
+
+#status-bar .time-holder .time i {
+    margin-right: inherit;
+    margin-left: 10px;
+}
+
+#status-bar .search-holder {
+    text-align: left;
+}
+
+#status-bar .search-holder form input[type="text"] {
+    padding: 7px 18px;
+    padding-left: 40px;
+}
+
+#status-bar .search-holder form button {
+    right: inherit;
+    left: 15px;
+}
+
+#status-bar .search-holder .btn-logout {
+    margin-left: inherit;
+    margin-right: 21px;
+}
+
+#status-bar .search-holder .btn-logout i {
+    margin-left: inherit;
+    margin-right: 7px;
+    -webkit-transform: scaleX(1);
+    -moz-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.zid-message:before {
+    right: inherit;
+    left: 0;
+    -webkit-transform: scaleX(1);
+    -moz-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.zid-message .btn-close {
+    right: inherit;
+    left: 10px;
+}
+
+.modal .modal-header .close {
+    right: inherit;
+    left: 15px;
+}
+
+.search-input-holder {
+    position: relative;
+}
+
+.search-input-holder .form-control {
+    padding-left: .5rem;
+    padding-right: 32px;
+}
+
+.search-input-holder:after {
+    left: inherit;
+    right: 11px;
+}
+
+.modal-side-text-align .modal-body {
+    text-align: right;
+}
+
+.breadcrumb-item + .breadcrumb-item {
+    padding-left: inherit;
+    padding-right: 22px;
+    margin-left: inherit;
+    margin-right: 8px;
+}
+
+.breadcrumb-item + .breadcrumb-item:before {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    left: inherit;
+    right: 0;
+}
+
+.title-w-icon i {
+    margin-right: inherit;
+    margin-left: 15px;
+}
+
+.card .card-header .card-link i {
+    margin-right: inherit;
+    margin-left: 10px;
+}
+
+.card .card-header .progress .progress-bar {
+    text-align: right;
+}
+
+.card .card-body .side-btns {
+    text-align: left;
+}
+
+.card-box.with-bg:before {
+    right: inherit;
+    left: 0;
+    -webkit-transform: scaleX(1);
+    -moz-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.card-box .title .badge {
+    margin-left: inherit;
+    margin-right: 10px;
+}
+
+.product-box-sm .info .title {
+    text-align: right;
+}
+
+.product-box-sm .info .count {
+    text-align: right;
+}
+
+.page-head .sec-title i {
+    margin-right: inherit;
+    margin-left: 8px;
+}
+
+.page-head .period-holder {
+    text-align: left;
+}
+
+.page-head .period-holder .text {
+    margin-right: inherit;
+    margin-left: 8px;
+}
+
+.page-head .btn-holder {
+    text-align: left;
+}
+
+.zid-notification {
+    padding: 8px 40px 8px 50px;
+}
+
+.zid-notification:before {
+    left: inherit;
+    right: 13px;
+}
+
+.zid-notification .btn-ok {
+    right: inherit;
+    left: 8px;
+}
+
+.stat-card.with-icon {
+    text-align: left;
+}
+
+.stat-card.with-icon .icon {
+    left: inherit;
+    right: -20px;
+}
+
+.requests-section .card-title {
+    margin-left: inherit;
+    margin-right: 3px;
+}
+
+.requests-section .card-title i {
+    margin-right: inherit;
+    margin-left: 8px;
+}
+
+.input-with-icon i {
+    left: inherit;
+    right: 10px;
+}
+
+.input-with-icon input, .input-with-icon .form-control {
+    padding-left: inherit;
+    padding-right: 32px;
+}
+
+.table-options .btns-title {
+    margin-right: inherit;
+    margin-left: 5px;
+}
+
+.table-options .btn.dropdown-toggle:after {
+    margin-left: inherit;
+    margin-right: 8px;
+}
+
+.other-table-options {
+    text-align: left;
+}
+
+.table-holder > table > tbody > tr > td:first-child {
+    border-left: 0;
+    border-right: 1px solid #E0E0E0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 11px;
+    border-bottom-right-radius: 11px;
+}
+
+.table-holder > table > tbody > tr > td:last-child {
+    border-right: 0;
+    border-left: 1px solid #E0E0E0;
+    border-top-left-radius: 11px;
+    border-bottom-left-radius: 11px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.table-holder > table > tbody > tr > td .product-info {
+    text-align: right;
+}
+
+.table-holder > table > tbody > tr.row-details > td {
+    border-right: 1px solid #E0E0E0;
+    border-left: 1px solid #E0E0E0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 11px;
+    border-bottom-left-radius: 11px;
+    text-align: right;
+}
+
+.table-holder > table > tbody > tr.row-details .row-details-content .products-table-holder > table > thead > tr > th {
+    text-align: right;
+}
+
+.table-holder > table > tbody > tr.row-details .row-details-content .products-table-holder > table > thead > tr > th:first-child {
+    padding-left: inherit;
+    padding-right: 0;
+}
+
+.table-holder > table > tbody > tr.row-details .row-details-content .products-table-holder > table > thead > tr > th:last-child {
+    padding-right: inherit;
+    padding-left: 0;
+}
+
+.table-holder > table > tbody > tr.row-details .row-details-content .products-table-holder > table > tbody > tr > td {
+    text-align: right;
+}
+
+.table-holder > table > tbody > tr.row-details .row-details-content .products-table-holder > table > tbody > tr > td:first-child {
+    padding-left: inherit;
+    padding-right: 0;
+}
+
+.table-holder > table > tbody > tr.row-details .row-details-content .products-table-holder > table > tbody > tr > td:last-child {
+    padding-right: inherit;
+    padding-left: 0;
+}
+
+.table-holder.with-details > table > tbody > tr > td:first-child {
+    border-bottom-right-radius: 0;
+}
+
+.table-holder.with-details > table > tbody > tr > td:last-child {
+    border-bottom-left-radius: 0;
+}
+
+.table-holder.with-details > table > tbody > tr.collapsed td:first-child {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 11px;
+}
+
+.table-holder.with-details > table > tbody > tr.collapsed td:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 11px;
+}
+
+.table-holder.with-details > table > tbody > tr.row-details > td {
+    border-bottom-right-radius: 11px;
+    border-bottom-left-radius: 11px;
+}
+
+.table.mini-table td, .table.mini-table th {
+    border-right: 0;
+    border-left: 1px solid rgba(198, 198, 198, 0.5);
+}
+
+.table.mini-table td:last-child, .table.mini-table th:last-child {
+    border-right: 0;
+    border-left: 1px solid transparent;
+}
+
+.table.mini-table td:first-child {
+    border-left: 1px solid rgba(198, 198, 198, 0.5);
+    border-right: 1px solid transparent;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+}
+
+.table.mini-table td:last-child {
+    border-left: 1px solid transparent;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
+}
+
+.table.mini-table tr:hover td:first-child {
+    border-right: 1px solid #CAE3DD;
+}
+
+.table.mini-table tr:hover td:last-child {
+    border-right: 0;
+    border-left: 1px solid #CAE3DD;
+}
+
+.table.mini-table-h-border tr td:first-child {
+    border-left: inherit;
+    border-right: 1px solid #E0E0E0;
+}
+
+.table.mini-table-h-border tr td:first-child:last-child {
+    border-left: 1px solid #E0E0E0;
+}
+
+.table.mini-table-h-border tr td:last-child {
+    border-right: inherit;
+    border-left: 1px solid #E0E0E0;
+}
+
+.table.mini-table-h-border tr td:last-child:first-child {
+    border-right: 1px solid #E0E0E0;
+}
+
+.table.mini-table-h-border tr:first-child td:first-child {
+    border-top-left-radius: inherit;
+    border-top-right-radius: 5px;
+}
+
+.table.mini-table-h-border tr:first-child td:last-child {
+    border-top-right-radius: inherit;
+    border-top-left-radius: 5px;
+}
+
+.table.mini-table-h-border tr:last-child td:first-child {
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: 5px;
+}
+
+.table.mini-table-h-border tr:last-child td:last-child {
+    border-bottom-right-radius: inherit;
+    border-bottom-left-radius: 5px;
+}
+
+.table.mini-table-h-border.v-border tr td {
+    border-left: 0;
+    border-right: 1px solid #E0E0E0;
+}
+
+.table.mini-table-h-border.v-border tr td:last-child {
+    border-left: 1px solid #E0E0E0;
+}
+
+.table.drafs-table tr th:last-child, .table.drafs-table tr td:last-child {
+    text-align: left;
+}
+
+.table.align-side-top tr td {
+    text-align: right !important;
+}
+
+.report-box.with-bg:before {
+    -webkit-transform: scaleX(1);
+    -moz-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.report-box .box-title {
+    margin-left: inherit;
+    margin-right: 3px;
+}
+
+.report-box .box-title i {
+    margin-right: inherit;
+    margin-left: 8px;
+}
+
+.report-box .box-title .btn-group {
+    margin-left: inherit;
+    margin-right: 8px;
+}
+
+.apexcharts-tooltip-marker {
+    margin-right: inherit !important;
+    margin-left: 10px;
+}
+
+.apexcharts-yaxis {
+    -webkit-transform: translateX(-5px);
+    -moz-transform: translateX(-5px);
+    -ms-transform: translateX(-5px);
+    transform: translateX(-5px);
+}
+
+.apexcharts-legend-marker {
+    margin-right: inherit !important;
+    margin-left: 7px;
+}
+
+.slider-box .box-badge {
+    left: inherit;
+    right: -6px;
+}
+
+.slider-box .box-badge:before {
+    left: inherit;
+    right: 0;
+    -webkit-transform-origin: top right;
+    -moz-transform-origin: top right;
+    -ms-transform-origin: top right;
+    transform-origin: top right;
+    -webkit-transform: skewY(-35deg);
+    -moz-transform: skewY(-35deg);
+    -ms-transform: skewY(-35deg);
+    transform: skewY(-35deg);
+}
+
+.slider-box .box-badge:after {
+    left: inherit;
+    right: 0;
+}
+
+.order-box .order-content .step-title .num {
+    margin-right: inherit;
+    margin-left: 12px;
+}
+
+.order-box .order-content form .input-group .btn {
+    margin-left: inherit;
+    margin-right: 10px;
+}
+
+.content-title.content-title-inline {
+    margin-right: inherit;
+    margin-left: 10px;
+}
+
+.other-box .other-box-head .nav-tabs {
+    -moz-justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+    -ms-justify-content: flex-start;
+    justify-content: flex-start;
+}
+
+.nav-btns .btn-back-holder {
+    text-align: right;
+}
+
+.nav-btns .btn-next-holder {
+    text-align: left;
+}
+
+.nav-btns .btn-next i {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.nav-btns .btn-back i {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    margin-right: -5px;
+    margin-left: 10px;
+}
+
+.nav-btns.fixed {
+    right: inherit;
+    left: 0;
+}
+
+.dropdown-search .dropdown-toggle .form-control {
+    padding-left: 10px;
+    padding-right: 35px;
+}
+
+.dropdown-search .dropdown-toggle:after {
+    left: inherit;
+    right: 14px;
+}
+
+.search-products-list .sublist-holder .list-row {
+    padding-left: inherit;
+    padding-right: 50px;
+}
+
+.selected-products-holder table thead th .mobile-only {
+    text-align: right;
+}
+
+.selected-products-holder .selected-products .list-row .list-col {
+    text-align: right;
+}
+
+.selected-products-holder .product-name {
+    text-align: right;
+}
+
+.selected-products-holder .product-quantity .price-holder {
+    margin-right: inherit;
+    margin-left: 15px;
+}
+
+.selected-products-holder .product-quantity .price-holder:before {
+    right: inherit;
+    left: -10px;
+}
+
+.selected-products-holder .total-amount {
+    text-align: left;
+}
+
+.selected-products-holder .total-amount .title {
+    margin-right: inherit;
+    margin-left: 12px;
+}
+
+.side-info {
+    border-left: 0;
+    border-right: 1px solid #E0E0E0;
+}
+
+.side-info.out-side {
+    border-right: 0;
+}
+
+.info-card > div i {
+    margin-right: inherit;
+    margin-left: 10px;
+}
+
+.info-card .icon-holder {
+    margin-right: inherit;
+    margin-left: 8px;
+}
+
+.options-list .option-holder {
+    margin-right: inherit;
+    margin-left: 5px;
+}
+
+.options-list .option-holder:last-child {
+    margin-right: inherit;
+    margin-left: 0;
+}
+
+.s-page-options {
+    text-align: left;
+}
+
+.reorder-list-holder .reorder-list .item-data .item-col {
+    margin-right: inherit;
+    margin-left: 10px;
+}
+
+.reorder-list-holder .reorder-list .item-data .item-col:last-child {
+    margin-right: inherit;
+    margin-left: 0;
+}
+
+.nav-tabs .nav-item {
+    margin-left: inherit;
+    margin-right: 5px;
+}
+
+.nav-tabs .nav-item:first-child {
+    margin-left: inherit;
+    margin-right: 0;
+}
+
+.tab-content .tab-pane .form-control {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 0;
+}
+
+.form-row-inline .form-group {
+    margin-right: inherit;
+    margin-left: 30px;
+}
+
+.form-row-inline .form-group:last-child {
+    margin-right: inherit;
+    margin-left: 0;
+}
+
+.select-chosen-container .chosen-container .chosen-choices li {
+    margin-right: inherit;
+    margin-left: 5px;
+}
+
+.select-chosen-container .chosen-container .chosen-choices li:last-child {
+    margin-right: inherit;
+    margin-left: 0;
+}
+
+.select-chosen-container .chosen-container .chosen-choices li.search-choice span {
+    margin-left: inherit;
+    margin-right: 12px;
+}
+
+.select-chosen-container .chosen-container .chosen-choices li.search-choice .search-choice-close {
+    margin-left: inherit;
+    margin-right: 8px;
+}
+
+.price-box .f-col .price .currency, .price-box .s-col .price .currency {
+    border-left: inherit;
+    border-right: 1px solid #CBD6D3;
+}
+
+.price-box .f-col i {
+    right: inherit;
+    left: 0;
+    -webkit-transform: scaleX(1);
+    -moz-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.price-box .s-col {
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 0;
+}
+
+.vue-tags-input .ti-input .ti-tags .ti-tag .ti-actions i:before {
+    margin-left: inherit;
+    margin-right: 7px;
+}
+
+.ex-link {
+    padding-right: 30px;
+    padding-left: 55px;
+}
+
+.ex-link i {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    right: inherit;
+    left: 15px;
+}
+
+.items-list-holder .items-list .list-item .item-info {
+    padding: 14px 15px 14px 80px;
+}
+
+.items-list-holder .items-list .list-item .item-info .btn-holder {
+    right: inherit;
+    left: 12px;
+}
+
+.items-list-holder .sub-list {
+    margin-left: inherit;
+    margin-right: 15px;
+}
+
+.sub-box .btn-holder .btn i {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.sms-credit-container > div {
+    margin-right: inherit;
+    margin-left: 10px;
+}
+
+.sms-credit-container .total .num {
+    margin: 0 0 0 8px;
+}
+
+.mini-info-box i, .mini-info-box .icon {
+    right: inherit;
+    left: 2rem;
+}
+
+.mini-info-box .featured-badge {
+    right: inherit;
+    left: 10px;
+}
+
+.pricing-box .details ul {
+    padding-left: 0;
+    padding-right: 15px;
+}
+
+.pricing-box .details ul li:before {
+    left: inherit;
+    right: -15px;
+}
+
+.pricing-box.other .title-holder {
+    text-align: right;
+}
+
+.pricing-box.other .title-holder .title {
+    margin-right: inherit;
+    margin-left: 20px;
+}
+
+ul.custom-ul {
+    padding-left: 0;
+    padding-right: 15px;
+}
+
+ul.custom-ul li:before {
+    left: inherit;
+    right: -15px;
+}
+
+.img-with-details .details {
+    margin-left: inherit;
+    margin-right: 10px;
+}
+
+.icon-with-text i {
+    margin-right: inherit;
+    margin-left: 10px;
+}
+
+.guestion-box .guestion-title a:after {
+    right: inherit;
+    left: 20px;
+}
+
+/* -----------------------------------
+    - Responsive Styles
+------------------------------------*/
+@media (max-width: 992px) {
+    #page-content-wrapper {
+        margin-left: inherit;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .page-head .period-holder {
+        text-align: center;
+    }
+
+    .side-info {
+        border-right: 0;
+        border-left: 0;
+    }
+
+    .coupons-table tr th:last-child, .coupons-table tr td:last-child {
+        text-align: left;
+    }
+}
+
+@media (max-width: 575px) {
+    #status-bar .search-holder .btn-logout {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .page-head .btn-holder {
+        text-align: right;
+    }
+
+    .table-options {
+        text-align: right;
+    }
+
+    .other-table-options {
+        text-align: right;
+    }
+
+    .table-holder.products-list .custom-checkbox {
+        -webkit-transform: translateX(-6px);
+        -moz-transform: translateX(-6px);
+        -ms-transform: translateX(-6px);
+        transform: translateX(-6px);
+    }
+}
