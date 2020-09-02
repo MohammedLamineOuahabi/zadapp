@@ -1,26 +1,21 @@
 <template>
-  <div id="app">
-    <Wrapper />
+  <div id="app" class="wrapper">
+    <SideBar />
+    <Content />
   </div>
 </template>
 
 <script>
-import Wrapper from "./components/Wrapper.vue";
+import SideBar from "./components/SideBar.vue";
+import Content from "./components/Content.vue";
 
 export default {
   name: "App",
   components: {
-    Wrapper
+    SideBar,
+    Content
   }
 };
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-</style>
+<style></style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="page-content-wrapper menu-closed">
+  <div class="page-content-wrapper menu-closed" id="page-content-wrapper">
     <Header />
     <PageHead />
     <PageContent />
